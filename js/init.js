@@ -43,7 +43,7 @@ webui.config(['$translateProvider', function ($translateProvider) {
       .translations('tr_TR', mergeTranslation(translations.tr_TR, translations.en_US))
       .translations('cs_CZ', mergeTranslation(translations.cs_CZ, translations.en_US))
       .useSanitizeValueStrategy('escapeParameters')
-      .determinePreferredLanguage('zh_CN');
+      .preferredLanguage('zh_CN');
 }]);
 
 $(function() {
